@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Survey Form!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Author" content="Poorvi">
+	<link rel="stylesheet" type="text/css" href="Survey.css">
+</head>
+<body>
+ <h1 id="title">Survey Form</h1>
+<div id="form-outer">
+<p id="description">Let us know how we can improve our hotel services!</p>
+<form id="survey-form">
+
+	<div class="labels">
+	<label id="name-label" for="name">*Name:</label>
+	</div>
+	<div class="input">
+	<input type="text" name="name" id="name" placeholder="Enter your name" required>
+	</div>
+
+	<div class="labels">
+	<label id="email-label" for="email">*Email:</label>
+	</div>
+	<div class="input">
+	<input type="email" name="email" id="email" placeholder="Enter your email" required>
+	</div>
+
+	<div class="labels">
+	<label  id="number-label" for="number">*Age:</label>
+	</div>
+	<div class="input">
+	<input type="number" name="age" id="number" placeholder="Age" min="1" max="120" required>
+	</div>
+
+	<div class="labels">
+	<label>According to you hotel best suitated for:</label>
+	</div>
+	<div class="input">
+	<select class="dropdown">
+		<option disabled value>Select Your View</option>
+		<option value="Family">Family Function</option>
+		<option value="Employee">Employee Meetings</option>
+		<option value="Personal">Personal Meetings</option>
+		<option value="Birthday">Birthday Parties</option>
+	</select>
+	</div>
+
+	<div class="labels">
+	<label>How Likely You Recommend to family and friends:</label>
+	</div>
+	<div class="input">
+	  <input type="radio" id="Choice1"
+     name="choice" value="definately" class="radio">
+    <label for="Choice1">definately</label>
+
+    <input type="radio" id="Choice2"
+     name="choice" value="may be" class="radio">
+    <label for="Choice2">may be</label>
+
+    <input type="radio" id="Choice3"
+     name="choice" value="not sure" class="radio">
+    <label for="Choice3">not sure</label>
+	</div>
+
+	<div class="labels">
+	<label>You liked most:</label>
+	</div>
+	<div class="input">
+	<select id="dropdown" class="dropdown">
+		<option disabled value>Select Your View</option>
+		<option value="Dessert">Dessert</option>
+		<option value="Starter">Starter</option>
+		<option value="Main course">Main course</option>	
+	</select>
+	</div>
+  
+  <div class="labels">
+	<label>Your's Favorite:</label>
+	</div>
+	<div class="input">
+	  <input type="checkbox" id="contactChoicea"
+     name="choice" value="Thai Food" class="checkbox">
+    <label for="contactChoicea">Thai Food</label>
+
+    <input type="checkbox" id="contactChoiceb"
+     name="choice" value="Continent" class="checkbox">
+    <label for="contactChoiceb">Continent</label>
+
+    <input type="checkbox" id="contactChoicec"
+     name="choice" value="Indian thali" class="checkbox">
+    <label for="contactChoicec">Indian thali</label>
+
+    <input type="checkbox" id="contactChoiced"
+     name="choice" value="Ice-Creams"  class="checkbox">
+    <label for="contactChoiced">Ice-Creams</label>
+   </div>
+    <div class="labels">
+   <label for="comments">Any Comments or Suggestions?</label>
+	</div>
+	<div class="input">
+	<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+	</div>
+<button id="submit" type="submit">Submit</button>
+	
+
+</form>
+</div>
+</body>
+</html>

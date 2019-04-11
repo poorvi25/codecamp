@@ -1,0 +1,52 @@
+
+#main{
+    
+    text-align: center;
+    position:absolute;
+	top:5%;
+    margin:auto; 
+    background-color:#e0e0eb;
+    background-size: auto;
+    width:100%;
+    box-sizing: border-box;
+    border-radius:8px;
+ }
+ #title{
+ 	font-size:15px;
+     font-family: 'Fira Sans', sans-serif;
+ }
+#img-div{
+	position:relative;
+	top:15%;
+	left:5px;
+	right:5px;
+	background-color:white;
+	 width: auto;
+    height: auto;
+	box-sizing: border-box;
+    }
+
+#image{
+
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+#img-caption{
+	   font-size:0.8em;
+}
+
+#tribute-info{
+	font-family: 'Fira Sans', sans-serif;
+}
+ul{
+	max-width: 550px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: left;
+}
